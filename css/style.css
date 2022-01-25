@@ -144,7 +144,7 @@ header .header_content {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 3px;
+  margin: 0 5px;
   border-radius: 50%;
   transition: 0.4s;
 }
