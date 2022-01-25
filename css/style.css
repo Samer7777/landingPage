@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;700;800;900&display=swap");
 @font-face {
   font-family: "GEDinarTwoMedium";
   src: url("../fonts/GE-Dinar-Two-Medium_1E.otf");
@@ -157,6 +156,17 @@ header .header_content {
 }
 
 /*********** responsive style *******************/
+@media (min-width: 1397px) {
+  #home_img {
+    display: none;
+  }
+  .hero {
+    height: 100vh;
+    background: url("../img/Bunner-2.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
 @media (max-width: 1026px) and (min-width: 767px) {
   .icon_counter .icon_item {
     padding: 4px;
